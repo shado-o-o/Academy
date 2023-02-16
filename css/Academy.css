@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 15px;
+    font-family:  'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.navbar{ 
+     background-color: rgb(0, 0, 0);
+}
+.navbar-toggler i{
+    color: #0bf587;
+}
+.navbar-brand{
+    color: #ffffff;
+    padding-right: 20px;
+    margin-left: 25px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.navbar-brand span{
+    font-size: 10px;
+    color: #0bf587;
+}
+.navbar-brand:hover{
+    color: #0bf587;
+}
+.navbar-brand i{
+    margin-right: 10px;
+    color: #0bf587;
+}
+.navbar-nav .nav-link{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.navbar-nav .nav-link i{
+  padding-right: 4px;
+}
+.navbar-nav .nav-link:hover{
+    color: #0bf587;
+}
+#in{
+    margin-left: 10px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+#up{
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #00ff8898;
+    border-radius:15px ;
+}
+#in:hover,
+#up:hover{
+ background-color: #0bf587;
+}
+.btn-outline-success {
+    color: #0bf587;
+    border-color: #0bf587;
+}
+.btn-outline-success:hover{
+    color: #0bf587;
+    background-color: #15a160;
+}
+.dropdown-menu{ 
+    background-color: black;
+    color: #ffffff;
+    border-top:1px solid #0bf587;
+    padding-top: 5px;
+    
+}
+.dropdown-item{
+ color: #ffffff;
+ transition: 0.5s;
+}
+.dropdown-item:hover{
+    background-color: #0bf587;
+    transform:translateX(9px);
+    
+}
+.nav-item .dropdown{
+    transition: 0.5s;
+}
+/* strat the web face  */
+.about_me{
+    width: 100%;
+    height: 100%;
+    background: url("../image/khlphea.jpg" ) no-repeat ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about_me .about-image{   
+    width: 290px;
+    height: 290px;
+    background-color: #0bf587;
+    border-radius: 15px;
+    border-bottom-left-radius:150px ;
+    border-top-right-radius: 150px;
+}
+.about_me .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+.about_me h1{
+    font-size: 4em;
+    font-weight: 500;
+    color: #0bf587;
+    animation: academy 10s ease-in-out;
+}
+@keyframes academy {
+    0%{
+        color: #0bf58818;
+
+    }
+    25%{
+        color: #0bf58857;
+    }
+    50%{
+        color: #0bf58891;
+    }
+    75%{
+        color: #0bf588cc;
+    }
+    100%{
+        color: #0bf588;
+    }
+}
+/* strat of the books */
+.books{
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.973);
+    color: #ffffff;
+}
+.card-book{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.card-book img{
+    height: 140px;
+    width: 120px;
+    border:2px solid #0bf587;
+    transition: 0.4s;
+    border-radius: 5px;  
+    cursor: pointer; 
+}
+.card-book img:hover{
+   transform: scale(1.1);
+}
+.card-book h4{
+    font-size: 1.2em;
+}
+.vid{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+.vid video{
+    width: 90%;
+    height:40%;
+    padding-top: 20px;
+}
+.my_team{
+    background-image: url(../image/academy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    
+    color: white;
+}
+.my_team .opc{
+    background: #212529d6;
+    height: 100%;
+    width: 100%;
+}
+.my_team h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:35px;
+}
+.team_space{
+    height: 50px;
+}
+.carousel-item .team_image img{
+width: 100px;
+height: 100px;
+border:2px solid #e41b17;
+border-radius: 50%;
+}
+.carousel-item h5{
+    color: #e41b17;
+    font-size: 20px;
+}
+.end{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.end h6{
+    padding-top: 7px;
+    
+    font-weight: 400;
+    cursor: pointer;
+}
